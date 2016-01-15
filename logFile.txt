@@ -1,0 +1,18 @@
+2016-01-15 14:20:24,527	web:log_exception	ERROR	1524	Uncaught exception POST /PearsonCorrelation (10.65.2.189)
+HTTPServerRequest(protocol='http', host='itmil-ves:8888', method='POST', uri='/PearsonCorrelation', version='HTTP/1.1', remote_ip='10.65.2.189', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Content-Length': '203', 'Host': 'itmil-ves:8888', 'Cache-Control': 'no-cache', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Postman-Token': 'f45d739b-51d4-40e6-dd57-f73ce0acd5ec', 'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'en-US,en;q=0.8,it;q=0.6,it-IT;q=0.4'})
+Traceback (most recent call last):
+  File "C:\Program Files\Python34\lib\site-packages\tornado-4.3-py3.4-win-amd64.egg\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:\Users\ves\PycharmProjects\Modules\Stat_I\Stat_I.py", line 40, in post
+    for ele in data['Data']:
+KeyError: 'Data'
+2016-01-15 14:20:24,541	web:log_request	ERROR	1946	500 POST /PearsonCorrelation (10.65.2.189) 15.00ms
+2016-01-15 14:21:30,746	web:log_exception	ERROR	1524	Uncaught exception POST /PearsonCorrelation (10.65.2.189)
+HTTPServerRequest(protocol='http', host='itmil-ves:8888', method='POST', uri='/PearsonCorrelation', version='HTTP/1.1', remote_ip='10.65.2.189', headers={'Origin': 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop', 'Accept-Language': 'en-US,en;q=0.8,it;q=0.6,it-IT;q=0.4', 'Host': 'itmil-ves:8888', 'Accept-Encoding': 'gzip, deflate', 'Cache-Control': 'no-cache', 'Content-Length': '203', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Postman-Token': '52495767-cee5-9c71-5779-d708ad80c828', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'})
+Traceback (most recent call last):
+  File "C:\Program Files\Python34\lib\site-packages\tornado-4.3-py3.4-win-amd64.egg\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "C:/Users/ves/PycharmProjects/Modules/Stat_I\Stat_I.py", line 40, in post
+    for ele in data['Data']:
+KeyError: 'Data'
+2016-01-15 14:21:30,753	web:log_request	ERROR	1946	500 POST /PearsonCorrelation (10.65.2.189) 12.00ms
